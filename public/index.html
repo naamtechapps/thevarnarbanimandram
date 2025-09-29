@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyApp - Download Now</title>
+    <title>தேவர் நற்பணி மன்றம்</title>
+    
+    <!-- Favicon (browser tab icon) -->
+    <link rel="icon" type="image/png" href="app_main_icon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="app_main_icon.png" sizes="16x16">
+
+    <!-- Apple / iOS App Icon -->
+    <link rel="apple-touch-icon" href="app_main_icon.png" sizes="180x180">
+
+    <!-- Android / PWA App Icon -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Open Graph (social media preview) -->
+    <meta property="og:title" content="தேவர் நற்பணி மன்றம்">
+    <meta property="og:description" content="தேவர் நற்பணி மன்றம், குத்துக்கல்வலசை">
+    <meta property="og:image" content="https://narpanimandramapp.web.app/app_main_icon.png">
+    <meta property="og:type" content="website">
     <style>
         * {
             margin: 0;
@@ -538,7 +554,7 @@
                 <img src="app_main_icon.png" alt="App Icon" style="width: 80px; height: 80px; border-radius: 20px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); object-fit: cover;">
             </div>
             <h1>தேவர் நற்பணி மன்றம்</h1>
-            <p></p>
+            <p>குத்துக்கல்வலசை</p>
         </div>
 
         <div class="main-content">
@@ -554,7 +570,7 @@
                 </a> -->
                 
                 <div class="version-info">
-                    <p><strong>Version 2.1.0</strong> • 25.4 MB • Updated Dec 15, 2024</p>
+                    <p><strong>Version 2.1.0</strong> • 58.0 MB • Updated Oct 29, 2025</p>
                 </div>
 
                 <div class="security-notice">
@@ -607,7 +623,7 @@
     <div class="footer">
         <div class="container">
             <p>&copy; 2025 தேவர் நற்பணி மன்றம். All rights reserved.</p>
-            <p>Need help? Contact us at <a href="mailto:support@myapp.com" style="color: #ffa502;">support@myapp.com</a></p>
+            <p>Need help? Contact us at <a href="mailto:support@narpanimandram.com" style="color: #ffa502;">support@myapp.com</a></p>
         </div>
     </div>
     <script type="module">
@@ -666,7 +682,7 @@
         document.getElementById('downloadBtn').addEventListener('click', function(e) {
             e.preventDefault();
             // Replace with your actual APK download URL
-            const downloadUrl = 'path/to/your/app.apk';
+            const downloadUrl = 'https://github.com/naamtechapps/thevarnarbanimandram/releases/download/untagged-0c11a8c80bd79efbd2b3/Narpani_mandram.apk';
             
             // You can add analytics tracking here
             console.log('Download initiated');
@@ -674,7 +690,7 @@
             // Create a temporary link to trigger download
             const link = document.createElement('a');
             link.href = downloadUrl;
-            link.download = 'MyAwesomeApp-v2.1.0.apk';
+            link.download = 'Narpani_mandram.apk';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
